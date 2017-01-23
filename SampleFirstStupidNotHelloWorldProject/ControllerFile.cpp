@@ -1,5 +1,5 @@
 //
-//  RunnerFile.cpp
+//  ControllerFile.cpp
 //  SampleFirstStupidNotHelloWorldProject
 //
 //  Created by Farr, Aaron on 1/23/17.
@@ -7,10 +7,3 @@
 //
 
 #include <stdio.h>
-
-int main()
-{
-    
-    
-    return 90;
-}
