@@ -6,11 +6,13 @@
 //  Copyright © 2017 Farr, Aaron. All rights reserved.
 //
 
-#include <stdio.h>
+
+#include "ControllerFile.h"
 
 int main()
 {
-    
+    ControllerFile * app = new ControllerFile();
+    app->start();
     
     return 90;
 }

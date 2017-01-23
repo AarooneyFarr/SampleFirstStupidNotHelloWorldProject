@@ -27,6 +27,7 @@
 		2401EFB41E365A5000F668F4 /* SampleFirstStupidNotHelloWorldProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SampleFirstStupidNotHelloWorldProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		2401EFBE1E365FBF00F668F4 /* RunnerFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RunnerFile.cpp; path = ../RunnerFile.cpp; sourceTree = "<group>"; };
 		2401EFC11E3661BF00F668F4 /* ControllerFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ControllerFile.cpp; sourceTree = "<group>"; };
+		2401EFC41E36645000F668F4 /* ControllerFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControllerFile.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 			children = (
 				2401EFBE1E365FBF00F668F4 /* RunnerFile.cpp */,
 				2401EFC11E3661BF00F668F4 /* ControllerFile.cpp */,
+				2401EFC41E36645000F668F4 /* ControllerFile.h */,
 			);
 			path = SampleFirstStupidNotHelloWorldProject;
 			sourceTree = "<group>";

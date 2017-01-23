@@ -6,4 +6,13 @@
 //  Copyright © 2017 Farr, Aaron. All rights reserved.
 //
 
-#include <stdio.h>
+#include <iostream>
+#include "ControllerFile.h"
+
+
+using namespace std;
+
+void ControllerFile :: start()
+{
+    cout << "Words go here" << endl;
+}
