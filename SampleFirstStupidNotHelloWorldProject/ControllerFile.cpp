@@ -15,4 +15,26 @@ using namespace std;
 void ControllerFile :: start()
 {
     cout << "Words go here" << endl;
+    int myAge = 17;
+    cout << "I am " << myAge << " years old." << endl;
+    cout << "\n";
+    
+    specialOutput();
+    
+}
+
+void ControllerFile :: specialOutput()
+{
+    cout << "How old are you? " << endl;
+    int yourAge;
+    cin >> yourAge;
+    cout << "oh, so you are " << yourAge << " years old!" << endl;
+    string myName;
+    cin.ignore();
+    cout << "Type in your name" << endl;
+    getline(cin, myName);
+    cout << "You typed: " << myName << endl;
+    
+    cin >> myName >> yourAge;
+    cout << "you typed: " << myName << " and " << yourAge << endl;
 }

@@ -11,6 +11,8 @@
 
 class ControllerFile
 {
+private:
+    void specialOutput();
 public:
     void start();
 };
